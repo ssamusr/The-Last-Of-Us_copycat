@@ -5,7 +5,15 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {}
+    fontFamily: {
+      ffInter: ['Inter', 'sans-serif']
+    },
+    extend: {
+      colors: {
+        'cian-blue': '#0070cc',
+        'dark-blue': '#1f2024'
+      }
+    }
   },
   plugins: []
 }
